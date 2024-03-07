@@ -1,0 +1,711 @@
+* {
+    margin: 0px;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+
+
+
+/* <<<<<<<<<<<<<<<<<<<<<<<<<<<nav       -nav-container starts here            >>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
+
+.nav-container {
+    background-color: black;
+    position: sticky;
+    top: 0;
+}
+
+
+.navbar {
+    display: flex;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: black;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 35px;
+    margin-right: 35px;
+
+}
+
+
+
+.logo {
+    width: 120px;
+    height: 6x;
+}
+
+
+
+.nav-items-container {
+    display: flex;
+
+
+
+    flex: 80%;
+    justify-content: end;
+}
+
+.nav-items-container ul {
+
+    display: flex;
+    flex-direction: row;
+
+   }
+
+
+
+.nav-items-container ul li a {
+
+    font-weight: 100;
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    font-family: "Open Sans Condensed", sans-serif;
+
+}
+
+
+.nav-items-container ul li {
+    
+    list-style: none;
+
+}
+
+.icon-header {
+
+    flex: 10%;
+    display: flex;
+    justify-content: space-around;
+    cursor: pointer;
+
+}
+
+
+.logo-container {
+
+    flex: 10%;
+
+}
+
+
+.icons i {
+
+    font-size: 50px;
+    color: black;
+
+}
+
+
+.icon-header img {
+
+    width: 23px;
+    height: 23px;
+
+}
+
+
+.hamburger i {
+
+    font-size: 25px;
+    position: absolute;
+    right: 25px;
+    top: 32px;
+    color: white;
+    display: none;
+
+}
+
+
+/* <<<<<<<<<<<<<<<<<<<<<<container   -container-box-1 starts here   >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
+.container-box1 img {
+
+    width: 100%;
+    height: 100%;
+
+}
+
+
+             /*<<<<<<<<<<<<<<<<<<<<<<<<    container-box-2 starts here    >>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
+.container-box2 {
+
+    width: 80%;
+    height: auto;
+    margin: auto;
+    grid-gap: 10px;
+    display: grid;
+
+    grid-template-columns: repeat(3, 1fr);
+
+    grid-template-areas: "text1  text1  text1"
+                         "img1   img2   img3"
+                         "txt1   txt2   txt3"
+                         "img4   img5   img6"
+                         "txt4   txt5   txt6"
+                         "img7   auto   auto "
+                         "txt7   auto   auto";
+  
+                         
+
+}
+
+
+
+
+.text1 {
+
+    text-align: center;
+    grid-area: text1;
+
+}
+
+
+.container-box2 img {
+
+    width: 100%;
+    display: flex;
+    overflow: hidden;
+
+}
+
+
+.text1 h1 {
+
+    font-family: 'Open Sans', sans-serif;
+    font-size: 45px;
+    font-weight: 100;
+    margin: 80px 0px;
+
+}
+
+
+.container-box2 p {
+
+    font-family: "Open Sans Condensed", sans-serif;
+
+}
+
+
+.img1 {
+
+    grid-area: img1;
+
+}
+
+
+.txt1 {
+
+    grid-area: txt1;
+    text-align: center;
+
+}
+
+
+.img2 {
+
+    grid-area: img2;
+
+}
+
+
+.txt2 {
+
+    grid-area: txt2;
+    text-align: center;
+
+}
+
+
+.img3 {
+
+    grid-area: img3;
+
+}
+
+
+.txt3 {
+
+    grid-area: txt3;
+    text-align: center;
+
+}
+
+
+.img4 {
+
+    grid-area: img4;
+
+}
+
+
+.txt4 {
+
+    grid-area: txt4;
+    text-align: center;
+
+}
+
+
+.img5 {
+
+    grid-area: img5;
+
+}
+
+
+.txt5 {
+
+    grid-area: txt5;
+    text-align: center;
+
+}
+
+
+.img6 {
+
+    grid-area: img6;
+
+}
+
+
+.txt6 {
+
+    grid-area: txt6;
+    text-align: center;
+
+}
+
+
+.img7 {
+
+    grid-area: img7;
+
+}
+
+
+.txt7 {
+
+    grid-area: txt7;
+    text-align: center;
+
+}
+
+
+
+
+        /*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>   container-box-3 starts here    <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<*/
+
+.container-box3{
+
+    background-color: black;
+
+}
+
+
+.container-box3 img {
+
+    width: 100%;
+    height: 100%;
+
+}
+
+        /*<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<   footer  starts here   >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
+
+footer {
+
+    background-color: black;
+    font-family: "Open Sans Condensed", sans-serif;
+
+}
+
+
+.footer-container {
+
+    width: 80%;
+    height: 211px;
+    margin: auto;
+    display: grid;
+
+    grid-template-columns: repeat(6, 1fr);
+
+    grid-template-areas: "simon  footer-item1   footer-item2   footer-item3    footer-item4    prem-gold"
+                         "simon  footer-links1  footer-links2  footer-links3   footer-links4   prem-gold";
+
+}
+
+
+.footer-container img {
+
+    width: 100%;
+    display: flex;
+    overflow: hidden;
+
+}
+
+
+
+.footer-item1,
+.footer-item2,
+.footer-item3,
+.footer-item4 h4 {
+
+    color: #be9509;
+
+}
+
+
+
+.footer-links1 a,
+.footer-links2 a,
+.footer-links3 a,
+.footer-links4 a {
+
+    color: #be9509;
+    list-style: none;
+    text-decoration: none;
+    line-height: 1.5;
+
+}
+
+
+.simon {
+
+    grid-area: simon;
+    margin-top: 10px;
+    width: 150px;
+
+}
+
+
+.footer-col1 {
+
+    margin-left: 25px;
+
+}
+
+
+.footer-item1 {
+
+    grid-area: footer-item1;
+    margin: 15px 0;
+
+}
+
+.footer-item2 {
+
+    grid-area: footer-item2;
+    margin-top: 20px;
+    margin: 15px 0;
+
+}
+
+
+.footer-item3 {
+
+    grid-area: footer-item3;
+    margin-top: 20px;
+    margin: 15px 0;
+
+}
+
+
+.footer-item4 {
+
+    grid-area: footer-item4;
+    margin-top: 20px;
+    margin: 15px 0;
+
+}
+
+
+.icons {
+
+    padding-top: 10px;
+    display: flex;
+    width: 100px;
+    gap: 10px;
+
+}
+
+
+.prem-gold {
+
+    grid-area: prem-gold;
+    margin-top: 10px;
+    width: 150px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        /*->>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  bottom-footer-line  starts here-  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< */
+
+.footer-line {
+
+    height: .8px;
+    background-color: #666;
+
+}
+
+
+.footer-bottom {
+
+    width: 100%;
+    height: 70px;
+    background-color: black;
+
+}
+
+
+.bottom-txt {
+
+    padding: 25px;
+    color: #be9509;
+    font-family: "Open Sans Condensed", sans-serif;
+    font-size: 15px;
+
+}
+
+
+/*<<<<<<<<<<<<<<<<<   -Hamburger  ->>>>>>>>>>>>>>>>>>>>*/
+
+.mob-nav-items-container{
+
+    position: fixed;
+    text-align: center;
+    top: 90px;
+    height: 150px;
+    background-color:white;
+    width: 90%;
+    display: none;
+    border-radius: 10px;
+    
+}
+
+
+
+.ham{
+
+    display: none;
+
+}
+
+
+#check{
+
+    display: none;
+
+}
+
+
+label i{
+
+    color: white;
+    font-size: 10px;
+
+}
+
+
+
+
+
+
+
+
+
+          /* <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Media Query statrs here   >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
+
+@media (max-width: 766px) {
+
+    .nav-items-container ul {
+        display: flex;
+        flex-direction: column;
+        display: none;
+
+    }
+
+
+    .container-box2 {
+
+        width: 100%;
+        height: auto;
+        margin: auto;
+        display: grid;
+
+        grid-template-columns: 1fr;
+
+        grid-template-areas:        "text1"
+                                    "img1"
+                                    "txt1"
+                                    "img2"
+                                    "txt2"
+                                    "img3"
+                                    "txt3"
+                                    "img4"
+                                    "txt4"
+                                    "img5"
+                                    "txt5"
+                                    "img6"
+                                    "txt6"
+                                    "img7"
+                                    "txt7";
+            
+    }
+
+
+    .text1 h1 {
+
+        font-size: 29px;
+
+    }
+
+
+    .container-box2 {
+
+        width: 100%;
+
+    }
+
+
+    .footer-container {
+
+        width: auto;
+        height: auto;
+        display: grid;
+
+        grid-template-columns: 1fr;
+
+        grid-template-areas:  "simon"
+                              "footer-item1"
+                              "footer-links1"
+                              "footer-item2"
+                              "footer-links2"
+                              "footer-item3"
+                              "footer-links3"
+                              "footer-item4"
+                              "footer-links4"
+                              "prem-gold";
+
+    }
+
+
+    .footer-col1,
+    .footer-col2,
+    .footer-col3,
+    .footer-col4 {
+
+        margin-left: 15px;
+        padding-top: 10px;
+
+    }
+
+    .footer-col2,
+    .footer-col3,
+    .footer-col4 h4 {
+
+        font-size: 14px;
+
+    }
+
+
+    .prem-gold {
+
+        margin: 20px;
+        margin-bottom: 60px;
+
+    }
+
+
+    .nav-items-container {
+
+        display: none;
+
+    }
+
+
+    .icon-header {
+
+        flex-direction: row;
+        display: flex;
+        justify-content: normal;
+
+    }
+
+
+
+/*<<<<<<<<<<<  -Hamburger-  >>>>>>>>>>>>>>*/
+
+    .ham{
+        display: block;
+    }
+
+    .hamburger:checked ~ .mob-nav-items-container{
+        display: block;
+    }
+
+    /* .hamburger:checked ~ label i::before{
+        content: '\58';
+    } */
+
+ .mob-nav-items-container li{
+
+        list-style: none;
+
+    }
+    
+
+    .mob-nav-items-container a{
+
+        text-decoration: none;
+        color: black;
+        font-family: "Open Sans Condensed", sans-serif;
+        font-size: 12px;
+        line-height: 2.5;
+    
+    }
+
+}
+
+
+@media (min-width:767px) and (max-width:1130px){
+
+    .footer-container{
+
+        width: 100%;
+
+    }
+
+
+    .simon{
+
+        width: 135px;
+
+    }
+
+
+    .prem-gold{
+
+        width: 135px;
+
+    }
+}
+
+@media (max-width:440px){
+    .mob-nav-items-container{
+        width: 85%;
+    }
+
+}
+
